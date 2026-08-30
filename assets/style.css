@@ -59,3 +59,23 @@ section {
     text-align: center;
   }
 }
+/* Hamburger button */
+.menu-toggle {
+  display:none;
+  background:#004080;
+  color:#fff;
+  padding:10px;
+  border:none;
+  font-size:1.2rem;
+  cursor:pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction:column;
+    display:none; /* hidden by default */
+  }
+  nav li { margin:10px 0; }
+  .menu-toggle { display:block; width:100%; text-align:left; }
+}
