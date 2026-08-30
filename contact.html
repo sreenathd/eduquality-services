@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - EduQuality Consultancy</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header>
+  <h1>Contact Us</h1>
+</header>
+
 <nav>
   <button class="menu-toggle">☰ Menu</button>
   <ul>
@@ -9,16 +21,7 @@
     <li><a href="contact.html">Contact</a></li>
   </ul>
 </nav>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Contact - EduQuality Consultancy</title>
-  <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-<header><h1>Contact Us</h1></header>
-<nav> ... </nav>
+
 <section>
   <p>📞 <a href="tel:+919495850144">+91 9495850144</a>, <a href="tel:+919980887386">+91 9980887386</a></p>
   <p>📧 <a href="mailto:leemakmohan@gmail.com">leemakmohan@gmail.com</a></p>
@@ -33,17 +36,17 @@
     <button type="submit">Send</button>
   </form>
 </section>
-<footer><p>&copy; 2026 EduQuality Consultancy</p></footer>
+
+<footer>
+  <p>&copy; 2026 EduQuality Consultancy</p>
+</footer>
+
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const navMenu = document.querySelector('nav ul');
+  toggle.addEventListener('click', () => {
+    navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
+  });
+</script>
 </body>
 </html>
-<nav>
-  <button class="menu-toggle">☰ Menu</button>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="services.html">Services</a></li>
-    <li><a href="why.html">Why Choose Us</a></li>
-    <li><a href="case.html">Case Studies</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</nav>
