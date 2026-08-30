@@ -1,11 +1,3 @@
-<script>
-  const toggle = document.querySelector('.menu-toggle');
-  const navMenu = document.querySelector('nav ul');
-
-  toggle.addEventListener('click', () => {
-    navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
-  });
-</script>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,15 +6,10 @@
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<header><h1>About Us</h1></header>
-<nav> ... (same nav links as index.html) ... </nav>
-<section>
-  <h2>Dr. Leema K. M.</h2>
-  <p>Ph.D. in Education, NET/JRF qualified, published author of *A Treatise on Teacher Education*, and founder of Kinder Universe. With 15+ years of academic leadership, Dr. Leema brings research-backed frameworks and practical experience to school audits and faculty empowerment.</p>
-</section>
-<footer><p>&copy; 2026 EduQuality Consultancy</p></footer>
-</body>
-</html>
+<header>
+  <h1>About Us</h1>
+</header>
+
 <nav>
   <button class="menu-toggle">☰ Menu</button>
   <ul>
@@ -34,3 +21,22 @@
     <li><a href="contact.html">Contact</a></li>
   </ul>
 </nav>
+
+<section>
+  <h2>Dr. Leema K. M.</h2>
+  <p>Ph.D. in Education, NET/JRF qualified, published author of <em>A Treatise on Teacher Education</em>, and founder of Kinder Universe. With 15+ years of academic leadership, Dr. Leema brings research-backed frameworks and practical experience to school audits and faculty empowerment.</p>
+</section>
+
+<footer>
+  <p>&copy; 2026 EduQuality Consultancy</p>
+</footer>
+
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const navMenu = document.querySelector('nav ul');
+  toggle.addEventListener('click', () => {
+    navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
+  });
+</script>
+</body>
+</html>
