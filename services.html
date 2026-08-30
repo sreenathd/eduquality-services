@@ -1,0 +1,40 @@
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const navMenu = document.querySelector('nav ul');
+
+  toggle.addEventListener('click', () => {
+    navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
+  });
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Services - EduQuality Consultancy</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header><h1>Our Services</h1></header>
+<nav> ... </nav>
+<section>
+  <ul>
+    <li><strong>SQAA Audit Support:</strong> Gap analysis, documentation, mock inspections.</li>
+    <li><strong>NAAC Accreditation Support:</strong> Institutional audits, compliance, and reporting.</li>
+    <li><strong>Faculty Development Workshops:</strong> Techno-pedagogy, ICT integration, life skills.</li>
+    <li><strong>Curriculum & Pedagogy Audits:</strong> Proprietary rubrics for teaching quality and student outcomes.</li>
+  </ul>
+</section>
+<footer><p>&copy; 2026 EduQuality Consultancy</p></footer>
+</body>
+</html>
+<nav>
+  <button class="menu-toggle">☰ Menu</button>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="why.html">Why Choose Us</a></li>
+    <li><a href="case.html">Case Studies</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
