@@ -1,0 +1,35 @@
+<script>
+  const toggle = document.querySelector('.menu-toggle');
+  const navMenu = document.querySelector('nav ul');
+
+  toggle.addEventListener('click', () => {
+    navMenu.style.display = navMenu.style.display === 'flex' ? 'none' : 'flex';
+  });
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Why Choose Us - EduQuality Consultancy</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header><h1>Why Choose Us</h1></header>
+<nav> ... </nav>
+<section>
+  <p>We combine academic credibility with practical school leadership experience. Our hybrid model of <strong>Pedagogy + Compliance</strong> ensures institutions not only meet accreditation standards but also improve teaching quality and student outcomes.</p>
+</section>
+<footer><p>&copy; 2026 EduQuality Consultancy</p></footer>
+</body>
+</html>
+<nav>
+  <button class="menu-toggle">☰ Menu</button>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="why.html">Why Choose Us</a></li>
+    <li><a href="case.html">Case Studies</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
